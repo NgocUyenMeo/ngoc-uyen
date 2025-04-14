@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Giới thiệu bản thân - Cao Ngọc Uyên</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      display: flex;
+      width: 90%;
+      max-width: 1100px;
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+    }
+
+    .left {
+      width: 50%;
+      background: #fff0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .avatar {
+      width: 80%;
+      border-radius: 30px;
+      object-fit: cover;
+    }
+
+    .right {
+      width: 50%;
+      background-color: #fddde6;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .right h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+
+    .right p {
+      font-size: 20px;
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      background-color: white;
+      color: black;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+      border: 1px solid #ccc;
+    }
+
+    .btn:hover {
+      background-color: #ffe6e6;
+    }
+
+    .socials {
+      text-align: center;
+    }
+
+    .socials a {
+      text-decoration: none;
+      color: black;
+      margin: 0 10px;
+      font-size: 22px;
+      transition: 0.3s;
+    }
+
+    .socials a:hover {
+      color: #ff6666;
+    }
+  </style>
+</head>
+<body style="background: url('background.jpg') no-repeat center center fixed; background-size: cover;">
+  <div class="container">
+    <div class="left">
+      <img src="avatar.jpg" alt="Ảnh đại diện" class="avatar" />
+    </div>
+    <div class="right">
+      <h1>Xin chào,<br>mình là Cao Ngọc Uyên.</h1>
+      <p>Mình đến từ Hải Phòng, yêu thích những điều dễ thương, đặc biệt là chó mèo. Với tính cách vui vẻ và thân thiện, mình luôn muốn lan tỏa sự dễ thương và tích cực đến mọi người xung quanh.</p>
+
+      <div class="buttons">
+        <a href="about.html" class="btn">Giới thiệu về mình</a>
+        <a href="contact.html" class="btn">Liên hệ với Uyên</a>
+      </div>
+
+      <div class="socials">
+        <a href="https://www.facebook.com/hoanguyen.836756/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/uyenh.16/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@uyenmeo16/" target="_blank"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
