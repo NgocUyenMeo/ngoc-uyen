@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Liên hệ với Uyên</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      padding: 50px;
+      margin: 0;
+    }
+
+    .form-container {
+      max-width: 600px;
+      margin: auto;
+      background: #fdeeee !important;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center; /* Căn giữa nội dung trong form */
+    }
+
+    h1 {
+      color: #e91e63;
+      margin-bottom: 30px;
+    }
+
+    label {
+      display: block;
+      margin: 15px 0 5px;
+      text-align: left;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    button {
+      margin-top: 20px;
+      background: #e91e63;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background: #d81b60;
+    }
+
+    /* Nút quay lại */
+    a.back {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 25px;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      border-radius: 12px;
+      box-shadow: 0 0 3px rgba(0,0,0,0.2);
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    a.back:hover {
+      background-color: #ffe6ee;
+    }
+  </style>
+</head>
+<<body style="background: url('background.jpg') no-repeat center center fixed; background-size: cover;">>
+  <div class="form-container">
+    <h1>Liên hệ với Uyên</h1>
+    <form action="#" method="post">
+      <label for="name">Tên của bạn:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Lời nhắn:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Gửi</button>
+    </form>
+
+    <!-- Nút quay lại được căn giữa nhờ text-align ở .form-container -->
+    <a href="index.html" class="back">← Quay lại Trang chủ</a>
+  </div>
+</body>
+</html>
